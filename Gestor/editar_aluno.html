@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Gestão Nutricional</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     </head>
+<body>
+
+  <h1>Editar Aluno</h1>
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Aluno</legend>
+        <label>Matrícula:</label><input class="campo_nome" type="text"><br>
+        <label>NIF:</label><input class="campo_nome" type="text"><br>
+        <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <input type="radio" id="sexo" name="sexo" value="sexo">
+        <label for="masculino">masculino</label>
+        <input type="radio" id="sexo" name="sexo" value="sexo">
+        <label for="masculino">feminino</label><br>
+        <label for="datanasc">data de nascimento</label>
+        <input id="date" type="date">
+        <label>Morada:</label><input class="campo_nome" type="text"><br>
+        <label>Telefone Principal :</label><input class="campo_nome" type="text"><br>
+        <label>Telefone Secundário:</label><input class="campo_nome" type="text"><br>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Encarregado de Educação</legend>
+        <input type="radio" id="pai" name="pai" value="pai">
+        <label for="pai">Pai</label>
+        <input type="radio" id="mae" name="mae" value="mae">
+        <label for="mae">Mãe</label>
+        <input type="radio" id="outro" name="outro" value="outro">
+        <label for="outro">Outro</label><br> 
+        <label>Nome:</label><input class="campo_nome" type="text">
+        <label>Relação:</label><input class="campo_nome" type="text"><br>        
+        <label>NIF:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Telefone:</label><input class="campo_nome" type="text"><br>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Informações alimentares</legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">intolerância ao glúten</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">intolerância à lactose</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">doença celíaca</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">alergia ao ovo</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">alergia ao amendoim e a frutos de casca rija</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">alergia a marisco (crustáceos) e a moluscos</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">alergia a peixe</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">alimentação vegetariana</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1">alimentação kosher</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">diabético</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">outros</label><br>
+        <label>Quais:</label><br><textarea class="msg" cols="100" rows="4"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
